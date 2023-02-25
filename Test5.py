@@ -1,11 +1,11 @@
 a = input()
-b = map(int,input().split(" "))
+b = input().split(" ")
 pp = 0
 confirm = 0
 while confirm == 1:
   confirm = 0
   for count in range(a):
-    if b[count-1]%2 == 1:
+    if b[count-1]%2 == "1":
       confirm = 0
       break
     else:
