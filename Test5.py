@@ -5,7 +5,7 @@ confirm = 1
 while confirm == 1:
   confirm = 0
   for count in range(a):
-    if int(b[count-1]%2) == 1:
+    if int(b[count-1])%2 == 1:
       confirm = 0
       break
     else:
