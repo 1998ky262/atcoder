@@ -5,12 +5,13 @@ confirm = 0
 while confirm == 1:
   confirm = 0
   for count in range(a):
-    if b[count-1]%2 == "1":
+    if int(b[count-1]%2) == "1":
       confirm = 0
       break
     else:
-      b[count-1]=b[count-1]/2
+      b[count-1]=int(b[count-1])/2
       confirm = 1
   if confirm == 1:
     pp+=1
 print(pp)
+# 簡単な問題なのにめっちゃ長くてくさ
