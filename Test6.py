@@ -1,7 +1,8 @@
 a = str(input())
-for c of range(0,len(a)):
-  if a[c]==0:
-    a[c]=1
-  else:
-    a[c]=0
-print(a)
+b = ""
+for c in range(0,len(a)):
+  if a[c]=="0":
+    b=b+"1"
+  else a[c]=="1":
+    b=b+"0"
+print(b)
