@@ -2,7 +2,7 @@ def ture_or_false(P, K):
     sorted_P = sorted(P)
     for i in range(len(P)):
         for j in range(i + 1, len(P)):
-            if P[i] + P[j] <= K:
+            if int(P[i])+ int(P[j])<= K:
                 P[i], P[j] = P[j], P[i]
     return P == sorted_P
 N , K = map(int,input().split(" "))
