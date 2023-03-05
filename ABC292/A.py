@@ -1,1 +1,1 @@
-# caps lock
+print(str.upper(input()))
